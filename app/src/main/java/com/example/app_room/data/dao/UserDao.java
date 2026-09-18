@@ -1,4 +1,4 @@
-package com.example.app_room.data.local;
+package com.example.app_room.data.dao;
 
 import androidx.room.Dao;
 import androidx.room.Insert;

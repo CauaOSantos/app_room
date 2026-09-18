@@ -1,4 +1,4 @@
-package com.example.app_room.data.local;
+package com.example.app_room.data.database;
 
 import android.content.Context;
 
@@ -6,6 +6,7 @@ import androidx.room.Database;
 import androidx.room.Room;
 import androidx.room.RoomDatabase;
 
+import com.example.app_room.data.dao.UserDao;
 import com.example.app_room.data.model.User;
 
 import java.util.concurrent.ExecutorService;

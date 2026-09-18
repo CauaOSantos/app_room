@@ -25,6 +25,7 @@
             android:name=".ui.cadastro.CadastroActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".ui.menu.MenuActivity" />
     </application>
 
 </manifest>
