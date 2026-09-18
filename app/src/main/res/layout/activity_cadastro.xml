@@ -47,6 +47,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
+        <!-- Campo de Nome Completo com TextInputEditText incluído -->
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/inputLayoutName"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -60,8 +61,16 @@
             app:boxCornerRadiusTopStart="12dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textTitleRegister"/>
+            app:layout_constraintTop_toBottomOf="@+id/textTitleRegister">
 
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editTextName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Campo de Email -->
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/inputLayoutEmailRegister"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -84,6 +93,7 @@
                 android:inputType="textEmailAddress" />
         </com.google.android.material.textfield.TextInputLayout>
 
+        <!-- Campo de Senha -->
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/inputLayoutPasswordRegister"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -95,10 +105,10 @@
             app:boxCornerRadiusBottomStart="12dp"
             app:boxCornerRadiusTopEnd="12dp"
             app:boxCornerRadiusTopStart="12dp"
-            app:passwordToggleEnabled="true"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/inputLayoutEmailRegister">
+            app:layout_constraintTop_toBottomOf="@+id/inputLayoutEmailRegister"
+            app:passwordToggleEnabled="true">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/editTextPasswordRegister"
@@ -107,6 +117,7 @@
                 android:inputType="textPassword" />
         </com.google.android.material.textfield.TextInputLayout>
 
+        <!-- Botão de Cadastro -->
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btnSignUp"
             android:layout_width="0dp"
