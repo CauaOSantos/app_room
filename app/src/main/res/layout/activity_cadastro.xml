@@ -6,18 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#121212"
-    tools:context=".RegisterActivity">
-
-    <ImageView
-        android:id="@+id/imageViewTop"
-        android:layout_width="492dp"
-        android:layout_height="754dp"
-        android:layout_marginTop="-280dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.679"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/simbolo_ordem" />
+    tools:context=".CadastroActivity">
 
     <ImageButton
         android:id="@+id/btnBackRegister"
