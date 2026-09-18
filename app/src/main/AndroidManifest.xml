@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.App_room">
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.login.MainActivity"
             android:exported="true"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
@@ -22,7 +22,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".CadastroActivity"
+            android:name=".ui.cadastro.CadastroActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
     </application>
